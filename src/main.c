@@ -42,16 +42,6 @@ float ooz;     // Inverse der Z-Koordinate
 int xp, yp;    // Bildschirmkoordinaten
 int idx;       // Pufferindex
 
-struct OberflaecheDaten
-{
-    float x_neu;
-    float y_neu;
-    float z_neu;
-    int xp_neu;
-    int yp_neu;
-    int idx_neu;
-};
-
 float berechneX(int i, int j, int k)
 {
     return j * sin(A) * sin(B) * cos(C) - k * cos(A) * sin(B) * cos(C) +
