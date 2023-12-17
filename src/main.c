@@ -23,11 +23,6 @@
 #include <string.h>
 #include <unistd.h>
 #include <conio.h>
-#define CLEAR "cls"
-#else // Wenn kein Windows verwendet wird (d. h. Unix/Linux)
-#include <termios.h>  // termios.h-Funktionen für Unix/Linux
-#define CLEAR "clear" // Befehl, um die Konsole in Unix/Linux zu löschen
-#endif
 
 // Deklaration der globalen Variablen
 float A, B, C; // Rotationswinkel
