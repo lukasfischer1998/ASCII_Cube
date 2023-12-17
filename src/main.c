@@ -17,10 +17,11 @@
 |                                                                              |
 \******************************************************************************/
 
-#include <math.h>
 #include <stdio.h>
-#include <string.h>
+#include <conio.h>
 #include <unistd.h>
+#include <math.h>
+#include <string.h>
 
 // Deklaration der globalen Variablen
 float A, B, C; // Rotationswinkel
@@ -85,7 +86,7 @@ void berechneFuerOberflaeche(float wuerfelX, float wuerfelY, float wuerfelZ, int
 int main()
 {
     printf("\x1b[2J");
-    while (1)
+    while (!kbhit())
     {
         memset(bildschirmPuffer, hintergrundASCIICode, breite * hoehe);
         memset(tiefenPuffer, 0, breite * hoehe * 4);
@@ -152,5 +153,6 @@ int main()
         C += 0.01;
         usleep(8000 * 2);
     }
+    printf("Key pressed. Exiting...\n");
     return 0;
 }

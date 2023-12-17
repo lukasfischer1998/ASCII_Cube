@@ -4,7 +4,7 @@ Dies ist ein einfaches C-Programm, das einen sich drehenden ASCII-Würfel auf de
 
 #### Beschreibung
 
-Das Programm verwendet grundlegende 3D-Koordinatenberechnungen, um die Oberflächen von 3 Würfeln im Terminal per ASCII Zeichen darzustellen
+Das Programm verwendet grundlegende 3D-Koordinatenberechnungen, um die Oberflächen von 3 Würfeln im Terminal per ASCII Zeichen darzustellen.
 
 #### Anleitung zum Klonen
 
