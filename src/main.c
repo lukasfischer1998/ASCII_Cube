@@ -27,7 +27,6 @@
 #include <conio.h>
 #define CLEAR "cls"
 #else // Wenn kein Windows verwendet wird (d. h. Unix/Linux)
-#include <unistd.h>
 #include <termios.h>  // termios.h-Funktionen für Unix/Linux
 #define CLEAR "clear" // Befehl, um die Konsole in Unix/Linux zu löschen
 #endif
