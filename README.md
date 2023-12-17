@@ -15,12 +15,11 @@ git clone https://github.com/Ohboy166/ASCII_Cube.git
 ~~~
 
 
-~~~ <conio.h> nur unter windows~~~
+~~~
+<conio.h> nur unter windows
+~~~
 
 Linux -> Header entfernen int main() while loop True setzen (khibit() entfernen) und abbruch per str+c
-
-
-
 
 
 
